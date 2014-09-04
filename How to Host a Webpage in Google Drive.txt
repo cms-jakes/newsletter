@@ -1,0 +1,9 @@
+How to host a webpage in Google drive:
+
+1. Upload complete folder of html files to Google Drive.
+2. Make the folder "public on the web"
+3. Get the folder ID.  This is a unique string of characters in the URL of Google Drive when you have opened the folder. (NOTE: if the folder is nested in another folder, you will want to get the last string of characters after the last forward slash"/")
+4. Modify this url to include the folder ID and the name of the html file in that folder
+	
+	https://googledrive.com/host/folderID/index.html
+
